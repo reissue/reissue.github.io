@@ -77,7 +77,6 @@ a:hover {
 }
 
 .section_title h2 {
-  /*text-transform: uppercase;*/
   text-align: center;
   position: relative;
   color: #333;
@@ -87,13 +86,18 @@ a:hover {
 
 .section_title a {
   text-decoration: underline;
+  color: #C0C0C0;
+}
+
+.section_title a:hover {
+  text-decoration: underline;
   color: #000;
 }
 
 .section_title p {
   text-align: center;
   margin-top: 45px;
-  color: silver;
+  color: #C0C0C0;
   font-weight: 300;
 }
 
