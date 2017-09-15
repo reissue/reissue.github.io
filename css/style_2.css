@@ -83,7 +83,11 @@ a:hover {
   color: #333;
   margin-top: 160px;
   margin-bottom: 100px;
+}
+
+.section_title a {
   text-decoration: underline;
+  color: #000;
 }
 
 .section_title p {
