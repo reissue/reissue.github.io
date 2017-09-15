@@ -1,0 +1,334 @@
+/* Table of Content
+==================================================
+  1. COMMON STYLES
+  2. SECTION HOME
+  3. SECTION ABOUT
+  4. SECTION VIDEO
+  5. SECTION TESTIMONIAL
+  6. SECTION FEATURES
+  7. SECTION CALL TO ACTION
+  8. SECTION APPS SCREEN
+  9. SECTION FUN FACTS
+  10. SECTION DOWNLOAD
+  11. SECTION CONTACT
+  12. SECTION SUBSCRIBE
+  13. SECTION FOOTER
+
+*/
+
+@font-face { font-family: 'Renner'; src: url('../renner-medium.otf') format("opentype"); }
+@font-face { font-family: 'Renner'; font-weight: bold; src: url('../renner-bold.otf') format("opentype"); }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+p {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: silver;
+  font-weight: 300;
+  margin: auto;
+}
+
+h1 {
+  font-family: 'Renner', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 45px;
+  letter-spacing: 1.2px;
+}
+
+h2 {
+  font-family: 'Renner', sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: 1.2px;
+}
+
+h3 {
+  font-family: 'Renner', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 40px;
+  letter-spacing: 1px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+
+/*---------------------------------------
+   COMMON STYLES
+-----------------------------------------*/
+
+.section_title {
+}
+
+.section_title h2 {
+  /*text-transform: uppercase;*/
+  text-align: center;
+  position: relative;
+  color: #333;
+  margin-top: 160px;
+  margin-bottom: 100px;
+}
+
+.section_title p {
+  text-align: center;
+  margin-top: 45px;
+  color: silver;
+  font-weight: 300;
+}
+
+.parallax {
+  background-attachment: fixed !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page {
+  margin-top: 150px;
+}
+/*---------------------------------------
+   SECTION HOME
+-----------------------------------------*/
+
+
+/*menu*/
+
+.logo {
+  padding-top: 50px;
+  padding-left: 20px;
+}
+
+.logo-img {
+  width: 125px;
+}
+
+.home_text {
+  text-align: center;
+  background: url('images/mainpage.png') no-repeat;
+}
+
+.home-website {
+  text-align: center;
+  position: relative;
+  margin-top: 100px;
+}
+
+.home_text h1 {
+  color: black;
+  /*text-transform: uppercase;*/
+  line-height: 35px;
+  padding-top: 60px;
+}
+
+.home_text p {
+  font-size: 18px;
+  line-height: 26px;
+  margin-top: 20px;
+  font-weight: 300;
+}
+
+.foreground-img {
+  width: 80%;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.background-img {
+  position: absolute;
+  background-image: url(../images/1.jpg);
+  filter: brightness(105%);
+  content: "";
+  left: 0;
+  width: 100%;
+  height: 90%;
+  margin-top: 200px;
+  background-size: cover;
+  z-index: -1;
+  border-radius: 0px;
+  border: 0px;
+}
+
+
+/* ==============================
+   ABOUT SECTION
+   ============================== */
+
+.about {
+  overflow: hidden;
+  margin-top: 150px;
+}
+
+
+/* ==============================
+   Details Section
+   ============================== */
+
+.grid {
+  padding: 20px 0px;
+  min-height: 400px;
+  margin-top: 100px;
+}
+
+section.infos {
+  padding: 30px 10px;
+}
+
+.wimg {
+  /*height: 300px;*/
+  overflow: hidden;
+}
+.winfo {
+  flex-direction: column;
+  padding: 20px;
+  text-align: left;
+}
+
+.section-img {
+  width: 100%;
+}
+
+.img-under {
+  top: 0px;
+  left: 0px;
+  position: absolute;
+}
+.winfo:nth-child(even) {
+  text-align: left;
+}
+
+.display-table {
+  display: table;
+  table-layout: fixed;
+}
+
+.display-cell {
+  display: table-cell;
+  vertical-align: middle;
+  float: none;
+}
+
+h3 {
+  line-height: 1.4;
+  margin-bottom: 0.25rem;
+  text-align: center;
+}
+
+.section-description {
+  width: 300px;
+  margin: auto;
+  margin-top: 15px;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .content .grid:nth-child(even) {
+    flex-direction: column-reverse;
+  }
+  .content .grid {
+    padding: 20px;
+    flex-direction: column-reverse;
+  }
+  .float-md-50 {
+    width: 99%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .logo {
+    padding-top: 10px;
+  }
+
+  .logo-img {
+    width: 100px;
+  }
+}
+
+@media (max-width: 600px) {
+  .content .grid:nth-child(even) {
+    flex-direction: column-reverse;
+  }
+  .content .grid {
+    padding: 20px;
+    flex-direction: column-reverse;
+  }
+  .float-md-50 {
+    width: 99%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-website {
+    margin-top: 100px;
+  }
+  .foreground-img {
+    width: 90%;
+  }
+  .background-img {
+    margin-top: 100px;
+  }
+  .home_text {
+    text-align: center;
+  }
+  .winfo-right {
+    padding: 0px;
+  }
+  .winfo-left {
+    padding: 0px;
+  }
+  .page {
+    margin-top: 50px;
+  }
+}
+
+
+}
+
+/*---------------------------------------
+   SECTION FUN FACTS
+-----------------------------------------*/
+.fun_facts {
+  margin-top: 200px;
+}
+.single_fun_facts h2 {
+  color: black;
+  text-transform: uppercase;
+  margin-top: 40px;
+  margin-bottom: 1px;
+}
+
+.single_fun_facts p {
+  margin-top: 20px;
+  width: 200px;
+}
+
+/*---------------------------------------
+   SECTION FOOTER
+-----------------------------------------*/
+.download {
+  margin-bottom: 100px;
+}
