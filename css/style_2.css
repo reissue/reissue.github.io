@@ -183,6 +183,25 @@ a:hover {
   margin-top: 150px;
 }
 
+.about .section_title h2 {
+  margin-bottom: 0;
+}
+
+.about .section_title .section-description {
+  margin-top: 0;
+}
+
+.about .section_title .section-description p {
+  margin-top: 15px;
+  display: inline-block;
+  border: 1px solid #C0C0C0;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 4px;
+  border-radius: 4px;
+  padding-bottom: 3px;
+}
+
 
 /* ==============================
    Details Section
@@ -340,4 +359,9 @@ h3 {
 -----------------------------------------*/
 .download {
   margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+.download .section_title a h2 {
+  margin-bottom: 50px;
 }
