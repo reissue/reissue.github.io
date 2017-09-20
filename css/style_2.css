@@ -63,6 +63,15 @@ h3 {
   letter-spacing: 1px;
 }
 
+h4 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 21px;
+  line-height: 26px;
+  color: silver;
+  font-weight: 300;
+  margin: auto;
+}
+
 a:hover {
   text-decoration: none;
 }
@@ -80,7 +89,7 @@ a:hover {
   text-align: center;
   position: relative;
   color: #333;
-  margin-top: 160px;
+  margin-top: 80px;
   margin-bottom: 100px;
 }
 
@@ -180,7 +189,7 @@ a:hover {
 
 .about {
   overflow: hidden;
-  margin-top: 150px;
+  margin-top: 80px;
 }
 
 .about .section_title h2 {
@@ -333,9 +342,6 @@ h3 {
   }
 }
 
-
-}
-
 /*---------------------------------------
    SECTION FUN FACTS
 -----------------------------------------*/
@@ -359,9 +365,16 @@ h3 {
 -----------------------------------------*/
 .download {
   margin-bottom: 100px;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .download .section_title a h2 {
   margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.download h4.coming-soon {
+  color: #C0C0C0;
+  text-align: center;
+  margin-bottom: 80px;
 }
